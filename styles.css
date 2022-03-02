@@ -1,87 +1,78 @@
 * {
-  font-family: "Roboto";
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  background-color: rgb(182, 182, 182);
+	font-family: "Roboto";
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 .App {
-  width: 100%;
-  min-height: 100vh;
-  /* border: thin solid black; */
+	width: 100%;
+	min-height: 100vh;
+	/* border: thin solid black; */
+}
+
+.logo {
+	height: 100px;
+	text-align: center;
 }
 
 .center {
-  text-align: center;
+	text-align: center;
 }
 
 .box {
-  width: 50px;
-  height: 50px;
-  border: thin solid black;
+	width: 50px;
+	height: 50px;
+	border: thin solid black;
 }
 
 .title {
-  padding: 20px;
+	padding: 20px;
 }
 
 .ticker-input {
-  border: 2px solid black;
-  height: 50px;
-  width: 200px;
-  padding: 5px 8px;
-  background: transparent;
+	border: thin solid black;
+	height: 50px;
+	width: 200px;
+	padding: 5px 8px;
+	background: white;
 }
 
 .chart-button {
-  border: none;
-  border-radius: 5px;
-  background: rgb(0, 108, 22);
-  width: 200px;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
-  height: 50px;
-}
-
-.chart-button:hover {
-  border: rgb(0, 108, 22) 2px solid;
-  transition: opacity 2s;
-  background: transparent;
-  width: 200px;
-  padding: 10px;
-  color: rgb(0, 108, 22);
-  cursor: pointer;
-  height: 50px;
+	border: none;
+	background: slategray;
+	width: 200px;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
 }
 
 .column {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+	padding-top: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
 }
 
 .row {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
 }
 
 .error-message {
-  color: rgb(205, 205, 205);
-  padding: 10px;
+	color: lightcoral;
+	padding: 10px;
 }
 
 .ticker-info {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  box-shadow: 0 0 1px 1px #0000008c;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	box-shadow: 0 0 1px 1px #00000020;
 }
